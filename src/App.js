@@ -1,5 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import Container from '@material-ui/core/Container';
+import Navbar from './Navbar.js';
+import PodLanding from './PodLanding.js';
+import Login from './Login.js';
 
 function App() {
   return (
@@ -18,6 +22,12 @@ function App() {
         >
           Learn React
         </a>
+        <Navbar />
+        <Container>
+          <PodLanding />
+          <Login />
+        </Container>
+        
       </header>
     </div>
   );
