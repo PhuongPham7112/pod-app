@@ -13,19 +13,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Navbar />
-        <div stye={{margin: "5px"}}>
-          <Grid container spacing={3}>
-            <Grid item xs={6}>
-              <PodLanding />
-            </Grid>
-            <Grid item xs={6}>
-              <Login />
-            </Grid>
-            <Grid item xs={12}>
-              <WhyPod />
-            </Grid>
-          </Grid>
+        <Navbar/>
+        <div>
+            <PodLanding />
+        </div>
+        <div>
+          <WhyPod />
         </div>
         <Footer />
       </header>

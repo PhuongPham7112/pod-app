@@ -8,12 +8,17 @@ function PodLanding()
     {
         return (
             <div>
-                <Grid style={{textAlign: "left", backgroundColor: "#bfd9ff", color: "black"}}>
-                    <h2> Pod </h2> 
-                    <body>
-                        Pod is an app for people to upload audio recordings to create discussions about topics they want to talk about in the moment. It is a platform for people to connect with each other on a deeper level by letting their voices show their authentic selves.
+                    <div style={{textAlign:"center", backgroundColor:"#ccbfff", color: "black"}}>
+                        <h1 style={{padding:"0px"}}> Pod: </h1> 
+                        <h2> Building Connection with Our Voices</h2>
+                    </div>
+                    <div style={{display:"flex", justifyContent: "center", alignItems: "center"}}>
+                    <body style={{textAlign:"center", width:"40%"}}>
+                        An app for people to upload audio recordings to create discussions about topics they want to talk about in the moment. A platform for people to connect with each other on a deeper level by letting their voices show their authentic selves.
                     </body>
-                </Grid>
+
+                    <Login style={{width:"45%"}}/>
+                    </div>
             </div>
         )
     }
