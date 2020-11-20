@@ -8,6 +8,7 @@ import Grid from '@material-ui/core/Grid';
 import Footer from './Footer.js';
 import './index.css';
 import WhyPod from './WhyPod.js';
+import OurMission from './OurMission.js';
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
         </div>
         <div>
           <WhyPod />
+        </div>
+        <div>
+            <OurMission />
         </div>
         <Footer />
       </header>
