@@ -10,21 +10,21 @@ const AppImages = () => {
             <img src="/images/Reddit.png" className="logo" alt="Reddit"/>
             <h2> Reddit </h2>
             <p className="description"> Pros: Communities centered around certain topics </p>
-            <p className="description"> Cons: Text based -- barrier to authentic conversations </p>
+            <p className="description" style={{fontWeight: "bold"}}> Cons: Text based -- barrier to authentic conversations </p>
           </Grid>
   
           <Grid item lg={4}>
             <img src="/images/Spoon_Logo.png" className="logo" alt="Spoon"/>
             <h2> Spoon </h2>
             <p className="description"> Pros: Community-based podcasts </p>
-            <p className="description"> Cons: Difficult to find relevant podcasts </p>
+            <p className="description" style={{fontWeight: "bold"}}> Cons: Difficult to find relevant podcasts </p>
           </Grid>
   
           <Grid item lg={4}>
             <img src="/images/twitch.jpg" className="logo" alt="Twitch"/>
             <h2> Twitch </h2>
             <p className="description"> Pros: Live-streaming content </p>
-            <p className="description"> Cons: Few topics outside of gaming </p>
+            <p className="description" style={{fontWeight: "bold"}}> Cons: Few topics outside of gaming </p>
           </Grid>
 
           <hr style={{color: "#d3d3d3", width: "90%", marginTop: "5vh"}}></hr>
