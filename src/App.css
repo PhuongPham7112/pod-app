@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/* .App {
+  
+} */
 
 .App-header {
-  background-color: #282c34;
+  background-color: #ffffff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  text-align: center;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.logo {
+  width: 50%;
+  height: 30%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pod-logo {
+  width: 70%;
+  height: 50%;
+}
+.team-image {
+  width: 50vw;
+}
+h2 {
+  font-size: 2rem;
+  color: black;
+}
+
+.link-list {
+  width: 100%;
+  display: block;
+  text-align: left;
+  text-indent: 10vh;
+  padding: 0px;
+  background-color: rgb(228, 228, 228);
+  margin: 0px;
+
+}
+
+.link {
+  list-style: none;
+  margin-top: 2vh;
+}
+
+.description {
+  font-size: 18px;
+  color: black;
 }
