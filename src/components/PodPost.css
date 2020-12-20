@@ -1,0 +1,99 @@
+.pod-post-container {
+    display: inline-block;
+    width: 90vw;
+    height: 40vh;
+    background-color:#fff1f0;
+    border-radius: 25px;
+    margin: 0 auto;
+    margin-top: 5vh;
+}
+
+.pod-content {
+    width: 95%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 2px;
+    justify-content: start;
+}
+
+.pod-title {
+    color: black;
+    font-weight: 500;
+    grid-column: 1/4;
+    justify-self: start;
+    align-self: center;
+    margin: 0;
+    font-size: 3vmax;
+}
+
+.pod-row2 {
+    display: flex;
+    flex-direction: row;
+    justify-self: start;
+    align-self: center;
+    grid-column: 1/5;
+    grid-row: 2/3;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0.5em;
+    padding-left: 0;
+}
+
+.pod-category {
+    display: flex;
+    padding: 3px 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    border-radius: 20px;
+    border: 5px solid #fcc8c8;
+    color:  #fcc8c8;
+    font-weight: bold;
+    margin: 0.5vmin;
+    margin-left: 0;
+}
+
+.pod-date {
+    margin: 0.5vmin;
+    color: gray;
+}
+
+.pod-author {
+    margin: 0.5vmin;
+    color: gray;
+}
+
+.pod-player {
+    display: flex;
+    background-color:  #fcc8c8;
+    grid-row: 3/4;
+    grid-column: 1/5;
+    border-radius: 25px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.play-pause-button {
+    color: #ff8383;
+    font-size: large;
+}
+
+.pod-time {
+    grid-row: 4/5;
+    grid-column: 1/2;
+    justify-self: start;
+    align-self: center;
+}
+
+.pod-other-buttons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    grid-row: 4/5;
+    grid-column: 4/5;
+    align-self: center;
+    color: #ff8383;
+}
